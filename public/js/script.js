@@ -2,7 +2,7 @@ document.observe('dom:loaded', function(event) {
 
 	$('tape_measure_drag').style.transition = 'left .5s ease 0s';
 	setTimeout(function() {
-		$('tape_measure_drag').style.left = "-1140px";
+		$('tape_measure_drag').style.left = "-1060px";
 	}, 100);
 
 	new Draggable('tape_measure_drag', { constraint: 'horizontal', handle: 'tape_measure_drag', 

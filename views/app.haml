@@ -1,0 +1,10 @@
+#measurementsContainer
+	.measurements_sub_title Virtual Tailor
+	#tape_measure.tape_measure_back
+		#tape_measure_drag.tape_measure_inches
+			%ul.numbers
+				- (0...81).each do |i|
+					%li
+						%label= i
+		%img.tapemeasure_needle(src="//imga.nxjimg.com/emp_image/apparel/measurements/tapemeasure/pointer.gif")
+	%input.nxj_input{:placeholder => "15", :id => "measurementInput"}

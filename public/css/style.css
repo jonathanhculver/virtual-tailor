@@ -1,0 +1,87 @@
+.nxj_input {
+  	border: 1px solid #999999;
+  	box-shadow: 0 0 4px 0 #888888 inset;
+  	color: #333333;
+  	font-family: 'OpenSans',Helvetica,Arial,sans-serif;
+  	font-size: 14px;
+  	height: 22px;
+  	line-height: 22px;
+	outline: medium none;
+	padding: 4px;
+}
+
+#measurementsContainer .nxj_input {
+  box-shadow: 0 0 1px #888888 inset;
+  font-size: 18px;
+  margin: 70px auto 0;
+  text-align: center;
+  width: 100px;
+  margin-left: 103px;
+}
+
+#measurementsContainer {
+	width: 320px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.measurements_sub_title {
+  color: #333333;
+  font-family: "Roboto";
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 320px;
+}
+
+/** tape measure **/
+.tape_measure_back {
+	margin: 10px auto  0 auto;
+	width: 320px;
+	height: 60px;
+	background: url('//imga.nxjimg.com/emp_image/apparel/measurements/tapemeasure/background.jpeg') no-repeat;
+	overflow: hidden;
+	position: absolute;
+}
+
+.tape_measure_inches {
+	position: absolute;
+	left: 60px;
+	margin-top: 5px;
+	height: 44px;
+	width: 8000px;
+	background: url('//imga.nxjimg.com/emp_image/apparel/measurements/tapemeasure/inches.png') repeat-x;
+}
+
+.tape_measure_inches .numbers {
+	list-style-type: none;
+	cursor: pointer;
+	padding: 0px;
+	height: 40px;
+	margin-top: -10px;
+}
+
+.tape_measure_inches .numbers li {
+	display: block;
+	float: left;
+	margin: 10px 0 0;
+	width: 80px;
+	color: #4C5059;
+	font-weight: bold;
+}
+
+.tape_measure_inches .numbers label {
+	padding-left: 8px;
+	letter-spacing: 5px;
+	font-size: 18px;
+	font-family: "Helvetica";
+}
+
+.tapemeasure_needle {
+	position: absolute;
+	top: 30px;
+	left: 151px;
+	z-index: 1001;
+}
+
+/** end tape measure ***/
